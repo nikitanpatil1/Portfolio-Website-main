@@ -1,0 +1,172 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about__title{
+    font-size: var(--size-3xl);
+    color: var(--clr-slate50);
+}
+
+.about-description-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.about__description{
+    text-align: justify;
+    font-size: var(--size-sm);
+    color: var(--clr-slate400);
+    
+}
+
+.about__description:last-child{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--clr-slate600) ;
+}
+
+.about__img{
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* xs */
+/* @media (min-width: 475px) {  
+} */
+
+/* sm */
+@media (min-width: 640px) {
+    
+    .about{
+        gap: 2rem;
+    }
+    
+    .about__content{
+        gap: 1.5rem;
+    }
+    
+    .about__title{
+        font-size: var(--size-4xl);
+    }
+    
+    
+    .about__description{
+        font-size: var(--size-base);
+        
+    }
+    
+    .about__img{
+        width: 500px;
+        height: 300;
+    }
+    
+   
+}
+
+/* md */
+@media (min-width: 768px) {
+    .about__img{
+        width: 550px;
+        height: 300;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .about{
+        gap: 2.5rem;
+    }
+    
+    .about__content{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+    }
+    
+    .about__title{
+        font-size: var(--size-5xl);
+    }
+    
+    .about-description-box{
+        gap: 1rem;
+        max-width: 55ch;
+    }
+    
+    .about__description{
+        font-size: var(--size-lg);
+        
+    }
+    
+    .about__description:last-child{
+        padding-bottom: 0px;
+        border-bottom: none;
+        
+    }
+    
+    .about__img{
+        width: 780px;
+        height: 320px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .about{
+        gap: 1.5rem;
+    }
+    
+    .about__content{
+        gap: 3rem;
+    }
+    
+    .about__title{
+        font-size: var(--size-6xl);
+    }
+    
+
+    .about-description-box{
+        max-width: 70ch;
+    } 
+    .about__description{
+        font-size: var(--size-xl);
+        
+    }
+    
+    
+    .about__img{
+        width: 850px;
+        height: 380px;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    
+    
+    .about__content{
+        gap: 5rem;
+    }
+    
+    .about-description-box{
+        max-width: 80ch;
+    } 
+  
+}

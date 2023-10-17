@@ -1,0 +1,162 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:1rem;
+}
+
+
+.contact__text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.contact__title{
+    font-size: var(--size-3xl);
+    color: var(--clr-slate50);
+}
+
+.contact__description{
+    font-size:var(--size-sm);
+    color:var(--clr-slate400);
+    max-width: 60ch;
+}
+
+
+
+.contact__icons-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact__elements{
+    font-size: var(--size-sm);
+    color: var(--clr-slate300);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.contact__elements:hover{
+    color: #be123c;
+    font-weight: 700;
+}
+
+
+
+
+/* xs */
+/* @media (min-width: 475px) { 
+} */
+
+/* sm */
+@media (min-width: 640px) {
+    .contact{
+        gap:2rem;
+    }
+    
+    
+    .contact__text-div{
+
+        gap: 1rem;
+        
+    }
+    
+    .contact__title{
+        font-size: var(--size-4xl);
+    }
+    
+    .contact__description{
+        font-size:var(--size-base);
+    }
+    
+    
+    
+    .contact__icons-div{
+        gap: 1.5rem;
+    }
+    
+    .contact__elements{
+        font-size: var(--size-base);
+    }
+    
+}
+
+/* md */
+/* @media (min-width: 768px) {
+   
+} */
+
+/* lg */
+@media (min-width: 1024px) {
+   
+    
+    .contact{
+        gap:2.5rem;
+    }
+    
+    
+    .contact__text-div{
+
+        gap: 1rem;
+        
+    }
+    
+    .contact__title{
+        font-size: var(--size-5xl);
+    }
+    
+    .contact__description{
+        font-size:var(--size-lg);
+    }
+    
+    
+    
+    .contact__icons-div{
+        gap: 1.5rem;
+    }
+    
+    .contact__elements{
+        font-size: var(--size-lg);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .contact{
+        gap:3rem;
+    }
+    
+    
+    .contact__title{
+        font-size: var(--size-6xl);
+    }
+    
+    .contact__description{
+        font-size:var(--size-xl);
+    }
+    
+    
+    
+    .contact__icons-div{
+        gap: 2rem;
+    }
+    
+    .contact__elements{
+        font-size: var(--size-xl);
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+   
+} */

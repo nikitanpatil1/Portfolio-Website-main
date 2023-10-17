@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/modern-normalize.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/hero.css">
+    <link rel="stylesheet" href="./styles/components/about.css">
+    <link rel="stylesheet" href="./styles/components/work.css">
+    <link rel="stylesheet" href="./styles/components/contact.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+    <link rel="stylesheet" href="./styles/components/mobile.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+    
+</head>
+<body>
+    <header class="header container">
+        <nav>
+            <ul class="header__menu">
+                <li>
+                    <a class="header__link" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="header__link" href="#work">Projects</a>
+                </li>
+                <li>
+                    <a class="header__link" href="#contact">Contact</a>
+                </li>
+                <li class="header__line"></li>
+                <li>
+                    <a class="header__resume btn" href="#">Resume</a>
+                </li>
+            </ul>
+            <button class="header__bars">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                  </svg>
+                  
+            </button>
+        </nav>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <nav>
+               <ul class="mobile-nav__menu">
+                <li>
+                    <a href="#about" class="mobile-nav__link">About</a>
+                </li>
+                <li>
+                    <a href="#work" class="mobile-nav__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="mobile-nav__link">Contact</a>
+                </li>
+                <li class="mobile-nav__link-line"></li>
+                <li>
+                    <a href="#" class="mobile-nav__btn btn">Resume</a>
+                </li>
+               </ul> 
+            </nav>
+
+        </div>
+        <!-- End of Mobile Navigation -->
+
+    </header>
+    <main>
+        <section class="hero container">
+            <h1 class="hero__title">Hi, I'm Nikita Patil</h1>
+            <p class="hero__description">A passionate <strong>web developer</strong> and <strong>UI/UX </strong> enthusiast.</p>
+            <a class="hero__btn btn" href="#contact">Reach out</a>
+        </section>
+
+        
+        <section id="about" class="about container">
+
+            <h2 class="about__title">About</h2>
+
+            <div class="about__content">
+
+                <div class="about-description-box">
+                    <p class="about__description">Hello there! I'm Nikita Patil, A passionate <strong>Web developer</strong> and <strong>UI/UX </strong> enthusiast based in India. I have done my graduation from Sinhgad College of Engineering which is affiliated with the Savitribai Phule University of Pune with aggregate CGPA of 7.61 .</p>
+                    <p class="about__description">The process of designing and developing Websites/Web applications facinates me, and so I want to design and develope interesting Websites/Web applications.</p>
+                    <p class="about__description">I am a fast learner, can work under pressure, have an intensive work ethic and a never giving up attitude. Though I'm a fresher in this field, but I can do wonders with right guidance and support. </p>
+
+
+                    
+                </div>
+                
+               
+                <div class="about__img-wrapper">
+                    <img class="about__img" src="./public/new__img.png" alt="Profile picture" >
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="work container section" id="work">
+
+            <h2 class="work__title">Projects</h2>
+
+            <div class="work__container">
+
+                <!-- project 1 -->
+                <h3 class="work__project-title">Recipe Website</h3>
+                <div class="work__img-wrapper work__image1">
+                    <img src="./public/recipe__img.png" alt="1st project" class="work__project-img">
+                </div>
+                <div class="work__project work__content1">
+                    <h3 class="work__project-subtitle">Recipe Website</h3>
+    
+                    <p class="work__project-description">This project is a recipe website named RecipeDecipe Designed and Developed by me. Which also acts as my second main project as this Portfolio Website is the 1st one. This project is a demo of all my learnings till now.</p>
+                    <a href=" https://nikitanpatil1.github.io/Recipe-Website-RecipeDecipe/" class="btn work__project-btn" target="_blank">Website</a>
+                </div>
+                
+                <!-- project 2 -->
+                 <h3 class="work__project-title">Survey Form</h3>
+                 <div class="work__img-wrapper work__image2">
+                     <img src="./public/survey__img.png" alt="2nd project" class="work__project-img">
+                 </div>
+                 <div class="work__project work__content2">
+                    <h3 class="work__project-subtitle">Survey Form</h3>
+    
+                     <p class="work__project-description">This project is Survey Form webpage. This project was in the curriculum of the course named "Responsive Web Design Certification" by freeCodeCamp which is now successfully completed by me.</p>
+                     <a href=" https://nikitanpatil1.github.io/Survey-Form-fCC/" class="btn work__project-btn" target="_blank">Website</a>
+                 </div>
+    
+                 <!-- project 3 -->
+                 <h3 class="work__project-title">Tribute Page</h3>
+                 <div class="work__img-wrapper work__image3">
+                     <img src="./public/tribute__img.png" alt="3rd project" class="work__project-img">
+                 </div>
+                 <div class="work__project work__content3">
+                    <h3 class="work__project-subtitle">Tribute Page</h3>
+    
+                     <p class="work__project-description">This project is Tribute Page. This project was in the curriculum of the course named "Responsive Web Design Certification" by freeCodeCamp which is now successfully completed by me.</p>
+                     <a href="https://nikitanpatil1.github.io/Tribute-page-fCC/" class="btn work__project-btn" target="_blank">Website</a>
+                 </div>
+    
+                 <!-- project 4 -->
+                 <h3 class="work__project-title">Technical Documentation</h3>
+                 <div class="work__img-wrapper work__image4">
+                     <img src="./public/technicalpg__img.png" alt="4th project" class="work__project-img">
+                 </div>
+                 <div class="work__project work__content4">
+                    <h3 class="work__project-subtitle">Technical Documentation</h3>
+    
+                     <p class="work__project-description">This project is Technical Documentation Page. This project was in the curriculum of the course named "Responsive Web Design Certification" by freeCodeCamp which is now successfully completed by me.</p>
+                     <a href=" https://nikitanpatil1.github.io/Technical-Documentation-page-fCC/" class="btn work__project-btn" target="_blank">Website</a>
+                 </div>
+    
+                 <!-- project 5-->
+                 <h3 class="work__project-title">Product Landing Page</h3>
+                 <div class="work__img-wrapper work__image5">
+                     <img src="./public/landingpg__img.png" alt="5th project" class="work__project-img">
+                 </div>
+                 <div class="work__project work__content5">
+                    <h3 class="work__project-subtitle">Product Landing Page</h3>
+    
+                     <p class="work__project-description">This project is Product Landing Page. This project was in the curriculum of the course named "Responsive Web Design Certification" by freeCodeCamp which is now successfully completed by me.</p>
+                     <a href="https://nikitanpatil1.github.io/Product-Landing-page-fCC/" class="btn work__project-btn" target="_blank">Website</a>
+                 </div>
+    
+                 <!-- project 6-->
+                 <h3 class="work__project-title">Portfolio Website FCC</h3>
+                 <div class="work__img-wrapper work__image6">
+                     <img src="./public/portfoliofcc__img.png" alt="6th project" class="work__project-img">
+                 </div>
+                 <div class="work__project work__content6">
+                    <h3 class="work__project-subtitle">Portfolio Website FCC</h3>
+    
+                     <p class="work__project-description">This project is Portfolio Website FCC which is bit different than this Portfolio Website. This project was in the curriculum of the course named "Responsive Web Design Certification" by freeCodeCamp which is now successfully completed by me.</p>
+                     <a href=" https://nikitanpatil1.github.io/Personal-Portfolio-fCC/" class="btn work__project-btn" target="_blank">Website</a>
+                 </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="contact" class="contact container section">
+
+            <div class="contact__text-div">
+                <h2 class="contact__title">Get In Contact</h2>
+                <p class="contact__description">
+                    These are some of my profiles, which can be used as a medium of connection between us. you can even reach out to share your thoughts regarding my projects or to give any tips and tricks regarding web-dev. 
+                </p>
+            </div>
+
+            <div class="contact__icons-div">
+                <a class="contact__elements" href="https://www.linkedin.com/in/nikita-patil1/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i> Linkedin
+                </a>
+    
+                <a class="contact__elements" href="https://github.com/nikitanpatil1" target="_blank" id="profile-link">
+                    <i class="fa-brands fa-github"></i> Github
+                </a>
+    
+                <p class="contact__elements" class="mail"><i class="fa-solid fa-envelope"></i> nikitanpatil2@gmail.com</p>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer class="footer container section">
+        <h3 class="footer__title">~ Nikita Patil ~</h3>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+
+
+</body>
+</html>
